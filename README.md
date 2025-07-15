@@ -59,6 +59,15 @@ Branches allow you to separate your work from the `main` branch. In other words,
 
 6. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
+## Timetable web app
+
+This repository includes a small Flask application for adding timetable entries.
+
+### Running locally
+1. Install dependencies with `pip install Flask`.
+2. Run the app using `python app.py` and open `http://localhost:5000` in your browser.
+
+
 <footer>
 
 <!--

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Timetable</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 600px; margin: auto; }
+        form div { margin-bottom: 0.5em; }
+        label { display: inline-block; width: 80px; }
+        ul { list-style-type: none; padding: 0; }
+        li { padding: 0.25em 0; border-bottom: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+    <h1>Timetable</h1>
+    <form method="post">
+        <div>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
+        <div>
+            <label for="time">Time:</label>
+            <input type="text" id="time" name="time" required>
+        </div>
+        <button type="submit">Add</button>
+    </form>
+
+    <h2>Entries</h2>
+    <ul>
+        {% for entry in timetable %}
+            <li>{{ entry.time }} - {{ entry.subject }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
