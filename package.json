@@ -1,0 +1,16 @@
+{
+  "name": "kesis-andhra-kitchen",
+  "version": "1.0.0",
+  "description": "Simple cloud kitchen site for Kesi's Andhra Kitchen",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
