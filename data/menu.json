@@ -1,0 +1,7 @@
+[
+  {"id": 1, "name": "Idli", "price": 40, "description": "Steamed rice cakes"},
+  {"id": 2, "name": "Masala Dosa", "price": 70, "description": "Rice crepes with spiced potato filling"},
+  {"id": 3, "name": "Upma", "price": 50, "description": "Savory semolina porridge"},
+  {"id": 4, "name": "Pesarattu", "price": 80, "description": "Green gram dosa"},
+  {"id": 5, "name": "Vada", "price": 45, "description": "Crispy lentil fritters"}
+]
